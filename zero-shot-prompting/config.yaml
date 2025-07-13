@@ -1,0 +1,26 @@
+dataset_path: nyu-visionx/VSI-Bench
+video_folder: /path/to/huggingface/vsibench
+doc_data_folder: /path/to/zero-shot-prompting/subset_eval_vsibench
+
+output_type: generate_until
+generation_kwargs:
+  max_new_tokens: 10000
+  temperature: 0
+  top_p: 1.0
+lmms_eval_specific_kwargs:
+  video:
+    pre_prompt: "You are a 3D indoor scene assitant. We provide 16 frames captured at equal intervals from a video for analysis."
+    mca_post_prompt: "Answer with the option's letter from the given choices directly."
+    na_post_prompt: "Do not response anything other than a single number!"
+  bev_fmark_labels:
+    pre_prompt: "You are a 3D indoor scene assistant. We provide a Bird's Eye View(BEV) image with object marks and object categories for analysis. Object marks are objects that are mentioned in the question."
+    mca_post_prompt: "Please refer to the object locations through their marks. Answer with the option's letter from the given choices directly."
+    na_post_prompt: "Do not response anything other than a single number!"
+    use_labels: True
+    direction_guide: True
+    planning_guide: True
+    use_coord: True
+    rotation: True
+    use_bbox: True
+metadata:
+  - version: 0.0

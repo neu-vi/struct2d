@@ -1,0 +1,11 @@
+numpy
+pandas
+PyYAML
+tqdm
+Pillow
+requests
+datasets
+decord
+opencv-python
+loguru
+nltk
