@@ -8,7 +8,8 @@ Official code release for **Struct2D: A Perception-Guided Framework for Spatial 
 
 
 
-📄 [[Paper (arXiv)]](https://arxiv.org/pdf/2506.04220) &nbsp;&nbsp;📂 [[Dataset]](https://huggingface.co/datasets/fangruiz/struct2d) &nbsp;&nbsp;🌐 [[Project Page]](https://neu-vi.github.io/struct2d/)
+📑 [Paper (arXiv)](https://arxiv.org/pdf/2506.04220)&nbsp;&nbsp;
+[<img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="Hugging Face" width="16" style="vertical-align:middle;"/> Dataset and Models](https://huggingface.co/datasets/fangruiz/struct2d) 
 
 
 <p align="center">
