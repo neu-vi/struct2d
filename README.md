@@ -27,9 +27,9 @@ reasoning benchmarks, validating the real-world applicability of our framework.
 ## 📁 Contents
 
 1. [Zero-shot Analysis](zero-shot-prompting/README.md)
-2. [Data processing for Struct2D-Set]
-3. [Training and Evaluation]
-4. [Results]
+2. [Data Processing](data-processing/README.md)
+3. Training and Evaluation
+4. Results
 
 
 ## 📖 Citation

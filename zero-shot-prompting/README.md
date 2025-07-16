@@ -17,7 +17,7 @@ Please download and extract the contents into:
 ./zero-shot-prompting/subset_eval_vsibench
 ```
 
-Additionally, we release the full pipeline used to:
+Additionally, we release the full pipeline used to: ([BEV images generation](../data-processing/README.md))
 - Generate BEV (Bird’s Eye View) images
 - Project object marks onto those images
 - 3D bounding boxes results from [Mask3D](https://github.com/JonasSchult/Mask3D)
