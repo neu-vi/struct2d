@@ -28,7 +28,7 @@ reasoning benchmarks, validating the real-world applicability of our framework.
 
 1. [Zero-shot Analysis](zero-shot-prompting/README.md)
 2. [Data Processing](data-processing/README.md)
-3. Training and Evaluation
+3. [Training and Evaluation](scripts/README.md)
 
 ## Installation
 
@@ -38,7 +38,6 @@ conda activate struct2d
 git clone git@github.com:neu-vi/struct2d.git
 pip install -e ".[torch,metrics]" --no-build-isolation
 ```
-
 
 ## 📖 Citation
 

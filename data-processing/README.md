@@ -48,3 +48,5 @@ Use the script below to generate BEV images and save 3D object bounding boxes as
 ```
 python generate_bev_images.py --dataset all
 ```
+
+We are currently streamlining the data generation pipeline for training and evaluation, as the original datasets are too large to be released directly.
