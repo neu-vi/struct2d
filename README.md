@@ -29,7 +29,6 @@ reasoning benchmarks, validating the real-world applicability of our framework.
 1. [Zero-shot Analysis](zero-shot-prompting/README.md)
 2. [Data Processing](data-processing/README.md)
 3. Training and Evaluation
-4. Results
 
 ## Installation
 

@@ -1,0 +1,45 @@
+### model
+model_name_or_path: Qwen2.5-VL-3B-Instruct
+image_max_pixels: 2560000
+video_max_pixels: 16384
+trust_remote_code: true
+
+### method
+stage: sft
+do_train: true
+finetuning_type: full
+freeze_vision_tower: false
+freeze_multi_modal_projector: false
+freeze_language_model: false
+deepspeed: configs/deepspeed/ds_z2_config.json
+
+### dataset
+dataset: scanqa_wkf, scanrefer_wkf, scan2cap_wkf, multi3drefer_wkf, sqa3d_wkf
+template: qwen2_vl
+cutoff_len: 50000
+max_samples: 200000
+overwrite_cache: true
+preprocessing_num_workers: 64
+dataloader_num_workers: 4
+
+### output
+output_dir: saves/qwen2_5vl-3b/full/scannet_all_wkf_32x4_1e-5_fa2
+logging_steps: 10
+save_steps: 100
+plot_loss: true
+overwrite_output_dir: true
+save_only_model: false
+report_to: wandb  # choices: [none, wandb, tensorboard, swanlab, mlflow]
+
+### train
+per_device_train_batch_size: 8
+gradient_accumulation_steps: 4
+learning_rate: 1.0e-5
+num_train_epochs: 1.0
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+bf16: true
+ddp_timeout: 180000000
+resume_from_checkpoint: null
+flash_attn: fa2
+
