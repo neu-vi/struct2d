@@ -31,6 +31,15 @@ reasoning benchmarks, validating the real-world applicability of our framework.
 3. Training and Evaluation
 4. Results
 
+## Installation
+
+```bash
+conda create -n struct2d python=3.10 -y
+conda activate struct2d
+git clone git@github.com:neu-vi/struct2d.git
+pip install -e ".[torch,metrics]" --no-build-isolation
+```
+
 
 ## 📖 Citation
 

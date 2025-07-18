@@ -7,3 +7,14 @@ zero-shot-prompting/logs
 zero-shot-prompting/others
 zero-shot-prompting/__pycache__
 zero-shot-prompting/data
+
+src/llamafactory/__pycache__
+src/llamafactory/api/__pycache__
+src/llamafactory/chat/__pycache__
+src/llamafactory/data/__pycache__
+src/llamafactory/eval/__pycache__
+src/llamafactory/extras/__pycache__
+src/llamafactory/hparams/__pycache__
+src/llamafactory/model/__pycache__
+src/llamafactory/train/__pycache__
+src/llamafactory/webui/__pycache__
