@@ -1,6 +1,6 @@
 # Struct2D
 
-Official code release for **Struct2D: A Perception-Guided Framework for Spatial Reasoning in Large Multimodal Models**.
+Official code release for **Struct2D: A Perception-Guided Framework for Spatial Reasoning in MLLMs**.
 
 
 [Fangrui Zhu<sup>*</sup>](https://fangruizhu.github.io/), [Hanhui Wang<sup>*</sup>](https://sarihust.github.io/), [Yiming Xie](https://ymingxie.github.io/), [Jing Gu](https://g-jing.github.io/), [Tianye Ding](https://jerrygcding.github.io/), [Jianwei Yang](https://jwyang.github.io/), [Huaizu Jiang](https://jianghz.me/)  
@@ -18,10 +18,10 @@ Official code release for **Struct2D: A Perception-Guided Framework for Spatial 
 
 ### Highlights
 - We propose a perception-guided 2D prompting strategy, Struct2D Prompting, and conduct a
-detailed zero-shot analysis that reveals LMMs’ ability to perform 3D spatial reasoning from
+detailed zero-shot analysis that reveals MLLMs’ ability to perform 3D spatial reasoning from
 structured 2D inputs alone.
 - We introduce Struct2D-Set, a large-scale instructional tuning dataset with automatically generated, fine-grained QA pairs covering eight spatial reasoning categories grounded in 3D scenes.
-- We fine-tune an open-source LMM to achieve competitive performance across several spatial
+- We fine-tune an open-source MLLM to achieve competitive performance across several spatial
 reasoning benchmarks, validating the real-world applicability of our framework.
 
 ## 📁 Contents
@@ -45,7 +45,7 @@ If you find Struct2D helpful in your research, please consider citing:
 
 ```bibtex
 @article{zhu2025struct2d,
-  title={Struct2D: A Perception-Guided Framework for Spatial Reasoning in Large Multimodal Models},
+  title={Struct2D: A Perception-Guided Framework for Spatial Reasoning in MLLMs},
   author={Zhu, Fangrui and Wang, Hanhui and Xie, Yiming and Gu, Jing and Ding, Tianye and Yang, Jianwei and Jiang, Huaizu},
   journal={arXiv preprint arXiv:2506.04220},
   year={2025}
